@@ -4,9 +4,8 @@ import com.deema.ems.dtos.LoginUserDto;
 import com.deema.ems.responses.LoginResponse;
 import com.deema.ems.services.AuthenticationService;
 import com.deema.ems.services.JwtService;
-import com.deema.ems.user.User;
+import com.deema.ems.entities.User;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RequestMapping("/auth")

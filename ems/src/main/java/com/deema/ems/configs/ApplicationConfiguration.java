@@ -1,6 +1,6 @@
 package com.deema.ems.configs;
 
-import com.deema.ems.user.UserRepository;
+import com.deema.ems.repositories.UserRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,15 +1,11 @@
 package com.deema.ems.services;
 
 import com.deema.ems.dtos.LoginUserDto;
-import com.deema.ems.user.User;
-import com.deema.ems.user.UserRepository;
+import com.deema.ems.entities.User;
+import com.deema.ems.repositories.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class AuthenticationService {
